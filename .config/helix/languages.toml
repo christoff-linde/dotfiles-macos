@@ -1,0 +1,18 @@
+# Python
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+# will get "Async jobs timed out" errors if this empty config is not added
+config = {}
+
+[[language]]
+name = "python"
+scope = "source.python"
+injection-regex = "python"
+file-types = ["py","pyi","py3","pyw","ptl",".pythonstartup",".pythonrc","SConstruct"]
+shebangs = ["python"]
+roots = ["setup.py", "setup.cfg", "pyproject.toml"]
+comment-token = "#"
+language-server =  { command = "pyright" }
+indent = { tab-width = 4, unit = "    " }
