@@ -3,28 +3,30 @@
 network_up=(
 	icon=⇡
 	icon.font="$FONT:Black:12.0"
-	icon.color=$YELLOW
-	label.color=$YELLOW
+	icon.color=$BLUE
+	label.color=$BLUE
 	background.border_color=$RED
 	background.border_width=2
 	background.height=40
 	background.corner_radius=12
 	padding_left=2
 	padding_right=2
-	update_freq=20
+	# width=72
+	update_freq=2
 	script="$PLUGIN_DIR/network.sh"
 )
 
 network_down=(
 	icon=⇣
 	icon.font="$FONT:Black:12.0"
-	icon.color=$GREEN
-	label.color=$GREEN
+	icon.color=$MAGENTA
+	label.color=$MAGENTA
 	padding_left=8
 	padding_right=2
 	background.border_width=0
 	background.height=24
-	update_freq=20
+	# width=72
+	update_freq=2
 	script="$PLUGIN_DIR/network.sh"
 )
 
