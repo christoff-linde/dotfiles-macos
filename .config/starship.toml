@@ -17,6 +17,7 @@ symbol = " "
 
 [directory]
 read_only = " 󰌾"
+truncate_to_repo = false
 
 [docker_context]
 symbol = " "
@@ -146,6 +147,10 @@ symbol = " "
 fish_indicator = "><❩°>"
 disabled = false
 
-
 [spack]
 symbol = "🅢 "
+
+[localip]
+ssh_only = false
+disabled = false
+style = "blue bold"
