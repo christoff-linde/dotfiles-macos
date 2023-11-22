@@ -10,9 +10,14 @@ end
 
 return {
 	window_decorations = "RESIZE",
-	window_background_opacity = 0.8,
-	macos_window_background_blur = 24,
-	text_background_opacity = 0.2,
+	window_background_opacity = 0.7,
+	macos_window_background_blur = 64,
+	text_background_opacity = 0.4,
+	font = wezterm.font({
+		family = "Monaspace Argon",
+		weight = 500,
+		harfbuzz_features = { "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "calt", "dlig" },
+	}),
 	-- ...your existing config
 	color_scheme = scheme_for_appearance(wezterm.gui.get_appearance()),
 }
