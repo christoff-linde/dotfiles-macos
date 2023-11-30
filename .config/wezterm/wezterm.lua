@@ -14,12 +14,17 @@ return {
 	window_background_opacity = 0.7,
 	macos_window_background_blur = 64,
 	text_background_opacity = 0.4,
-	font = wezterm.font_with_fallback({
-		"Iosevka NF",
-		"JetBrainsMono NF",
-		"FiraCode Nerd Font",
-		"Hack Nerd Font",
-		"MesloLGS NF",
+	-- font = wezterm.font_with_fallback({
+	--	"MonaspiceXe NF",
+	--	"Iosevka NF",
+	--	"JetBrainsMono NF",
+	--	"FiraCode Nerd Font",
+	--	"Hack Nerd Font",
+	--	"MesloLGS NF",
+	--}),
+	font = wezterm.font({
+		family = "Iosevka NF",
+		weight = 400,
 	}),
 	hafbuzz_features = { "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "calt", "dlig" },
 	-- ...your existing config
