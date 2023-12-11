@@ -6,6 +6,10 @@ return {
     lazy = true,
     name = "catppuccin",
     opts = {
+      background = { -- :h background
+        light = "latte",
+        dark = "mocha",
+      },
       integrations = {
         alpha = true,
         cmp = true,
