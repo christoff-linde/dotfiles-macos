@@ -11,9 +11,9 @@ end
 return {
 	window_decorations = "RESIZE",
 	hide_tab_bar_if_only_one_tab = true,
-	window_background_opacity = 0.7,
+	window_background_opacity = 0.8,
 	macos_window_background_blur = 64,
-	text_background_opacity = 0.4,
+	text_background_opacity = 0.6,
 	-- font = wezterm.font_with_fallback({
 	--	"MonaspiceXe NF",
 	--	"Iosevka NF",
