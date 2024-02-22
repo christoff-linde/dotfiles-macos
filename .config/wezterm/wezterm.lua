@@ -23,7 +23,7 @@ return {
 	--	"MesloLGS NF",
 	--}),
 	font = wezterm.font({
-		family = "Iosevka NF",
+		family = "Iosevka NF Term",
 		weight = 400,
 	}),
 	hafbuzz_features = { "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "calt", "dlig" },
